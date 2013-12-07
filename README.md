@@ -11,7 +11,9 @@ and within an hour your users will be able to chat from your site.
 2. In the /public/javascripts/chatter_settings.js file, specify where you are deploying the node server to and what site
     you will be adding ChitChat.js to (note, you may not know where the node server is going to be deployed until after
     you deploy, this is ok just change the node_server_url once you do know)
-3. Ensure the app has a Procfile with "web: node web.js" in it. This is required for deploying on heroku
+3. Ensure the app has a Procfile with 
+    <pre><code>web: node web.js</code></pre>
+    in it. This is required for deploying on heroku
 4. Git commit your changes
 5. Deploy to heroku (follow the walkthrough below or, https://devcenter.heroku.com/articles/getting-started-with-nodejs)
   in your console type each of these comands:
@@ -29,7 +31,7 @@ and within an hour your users will be able to chat from your site.
     * note2: ChitChat.js is dependant on jQuery. JQuery must be loaded before loading ChitChat.js
   2. add code to notify ChitChat.js when a user logs into your site. Use ChitChat function:
 <pre><code>chatterApp.setUsername(username, callback)</code></pre>
-    If  the login does not cause a new page to load, no callback needs to be passed to setUsername. If login will require a new page to load, use the form submission as the callback. This allows the ChitCHat.js node.js app to recognize the user login event before the page refreshes In the simplest case, a user will visit a sign in/sign up page and then be rerouted to a new page. If this is the use case for your app, use code similar to example below:
+    If  the login does not cause a new page to load, no callback needs to be passed to setUsername. If login will require a new page to load, use the form submission as the callback. This allows the ChitChat.js server time to recognize the user login event before the page refreshes (should be wicked fast). In the simplest case, a user will visit a sign in/sign up page and then be rerouted to a new page. If this is the use case for your app, use code similar to example below:
     <pre><code>&lt;script&gt;
         var form = $("#new_user"); // set form to the signin/signup form
         $(form).on("submit", function(e) {
