@@ -13,7 +13,7 @@ and within an hour your users will be able to chat from your site.
     you deploy, this is ok just change the node_server_url once you do know)
 3. Ensure the app has a Procfile with 
     <pre><code>web: node web.js</code></pre>
-    in it. This is required for deploying on heroku
+    This is required for deploying on heroku
 4. Git commit your changes
 5. Deploy to heroku (follow the walkthrough below or, https://devcenter.heroku.com/articles/getting-started-with-nodejs)
   in your console type each of these comands:
