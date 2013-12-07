@@ -1,0 +1,1422 @@
+server created
+info: socket.io started
+express created
+debug: client authorized
+info: handshake authorized qhXuKUR6JLS1CzFIDQjG
+debug: client authorized
+info: handshake authorized JMiUzW5ZdE1-Ey2jDQjH
+debug: client authorized
+info: handshake authorized kZ0KzOuwOc51UGI5DQjI
+debug: setting request GET /socket.io/1/websocket/qhXuKUR6JLS1CzFIDQjG
+debug: set heartbeat interval for client qhXuKUR6JLS1CzFIDQjG
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: setting request GET /socket.io/1/websocket/kZ0KzOuwOc51UGI5DQjI
+debug: set heartbeat interval for client kZ0KzOuwOc51UGI5DQjI
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: setting request GET /socket.io/1/websocket/JMiUzW5ZdE1-Ey2jDQjH
+debug: set heartbeat interval for client JMiUzW5ZdE1-Ey2jDQjH
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+info: transport end (socket end)
+debug: set close timeout for client JMiUzW5ZdE1-Ey2jDQjH
+debug: cleared close timeout for client JMiUzW5ZdE1-Ey2jDQjH
+debug: cleared heartbeat interval for client JMiUzW5ZdE1-Ey2jDQjH
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":[null]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":[null]}
+Client disconnected...undefined
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m7ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m6ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized mVc1x3uwFEUDEjlhDQjJ
+debug: setting request GET /socket.io/1/websocket/mVc1x3uwFEUDEjlhDQjJ
+debug: set heartbeat interval for client mVc1x3uwFEUDEjlhDQjJ
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:58:43.357Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:58:43.357Z"}]}
+after emit
+debug: emitting heartbeat for client qhXuKUR6JLS1CzFIDQjG
+debug: websocket writing 2::
+debug: set heartbeat timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: set heartbeat interval for client qhXuKUR6JLS1CzFIDQjG
+debug: emitting heartbeat for client kZ0KzOuwOc51UGI5DQjI
+debug: websocket writing 2::
+debug: set heartbeat timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: set heartbeat interval for client kZ0KzOuwOc51UGI5DQjI
+debug: emitting heartbeat for client mVc1x3uwFEUDEjlhDQjJ
+debug: websocket writing 2::
+debug: set heartbeat timeout for client mVc1x3uwFEUDEjlhDQjJ
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client mVc1x3uwFEUDEjlhDQjJ
+debug: set heartbeat interval for client mVc1x3uwFEUDEjlhDQjJ
+debug: emitting heartbeat for client qhXuKUR6JLS1CzFIDQjG
+debug: websocket writing 2::
+debug: set heartbeat timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: set heartbeat interval for client qhXuKUR6JLS1CzFIDQjG
+debug: emitting heartbeat for client kZ0KzOuwOc51UGI5DQjI
+debug: websocket writing 2::
+debug: set heartbeat timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: set heartbeat interval for client kZ0KzOuwOc51UGI5DQjI
+debug: emitting heartbeat for client mVc1x3uwFEUDEjlhDQjJ
+debug: websocket writing 2::
+debug: set heartbeat timeout for client mVc1x3uwFEUDEjlhDQjJ
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client mVc1x3uwFEUDEjlhDQjJ
+debug: set heartbeat interval for client mVc1x3uwFEUDEjlhDQjJ
+info: transport end (socket end)
+debug: set close timeout for client mVc1x3uwFEUDEjlhDQjJ
+debug: cleared close timeout for client mVc1x3uwFEUDEjlhDQjJ
+debug: cleared heartbeat interval for client mVc1x3uwFEUDEjlhDQjJ
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized jI7L0NskAXeFZq-_DQjK
+debug: setting request GET /socket.io/1/websocket/jI7L0NskAXeFZq-_DQjK
+debug: set heartbeat interval for client jI7L0NskAXeFZq-_DQjK
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:33.927Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:33.927Z"}]}
+after emit
+debug: emitting heartbeat for client qhXuKUR6JLS1CzFIDQjG
+debug: websocket writing 2::
+debug: set heartbeat timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: set heartbeat interval for client qhXuKUR6JLS1CzFIDQjG
+debug: emitting heartbeat for client kZ0KzOuwOc51UGI5DQjI
+debug: websocket writing 2::
+debug: set heartbeat timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: set heartbeat interval for client kZ0KzOuwOc51UGI5DQjI
+info: transport end (socket end)
+debug: set close timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: cleared close timeout for client kZ0KzOuwOc51UGI5DQjI
+debug: cleared heartbeat interval for client kZ0KzOuwOc51UGI5DQjI
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":[null]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":[null]}
+Client disconnected...undefined
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized xxrgKdYrKqXWuMeGDQjL
+debug: setting request GET /socket.io/1/websocket/xxrgKdYrKqXWuMeGDQjL
+debug: set heartbeat interval for client xxrgKdYrKqXWuMeGDQjL
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:33.927Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:42.032Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:42.032Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: cleared close timeout for client qhXuKUR6JLS1CzFIDQjG
+debug: cleared heartbeat interval for client qhXuKUR6JLS1CzFIDQjG
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":[null]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":[null]}
+Client disconnected...undefined
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized WRE0s0lKABuJWKvGDQjM
+debug: setting request GET /socket.io/1/websocket/WRE0s0lKABuJWKvGDQjM
+debug: set heartbeat interval for client WRE0s0lKABuJWKvGDQjM
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:33.927Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:42.032Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:47.677Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:47.677Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client jI7L0NskAXeFZq-_DQjK
+debug: cleared close timeout for client jI7L0NskAXeFZq-_DQjK
+debug: cleared heartbeat interval for client jI7L0NskAXeFZq-_DQjK
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized q_NoCoGz8mE1twsBDQjN
+debug: setting request GET /socket.io/1/websocket/q_NoCoGz8mE1twsBDQjN
+debug: set heartbeat interval for client q_NoCoGz8mE1twsBDQjN
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:42.032Z"},"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:47.677Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:53.501Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:53.501Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client xxrgKdYrKqXWuMeGDQjL
+debug: cleared close timeout for client xxrgKdYrKqXWuMeGDQjL
+debug: cleared heartbeat interval for client xxrgKdYrKqXWuMeGDQjL
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized Ui3J0UuVqQE9EKXHDQjO
+debug: setting request GET /socket.io/1/websocket/Ui3J0UuVqQE9EKXHDQjO
+debug: set heartbeat interval for client Ui3J0UuVqQE9EKXHDQjO
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:47.677Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:53.501Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:56.725Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:56.725Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client WRE0s0lKABuJWKvGDQjM
+debug: cleared close timeout for client WRE0s0lKABuJWKvGDQjM
+debug: cleared heartbeat interval for client WRE0s0lKABuJWKvGDQjM
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 1"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 1"]}
+Client disconnected...room 1
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m2ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized VG-Cau3YZpCPI84hDQjP
+debug: setting request GET /socket.io/1/websocket/VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-14T23:59:53.501Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:56.725Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client q_NoCoGz8mE1twsBDQjN
+debug: cleared close timeout for client q_NoCoGz8mE1twsBDQjN
+debug: cleared heartbeat interval for client q_NoCoGz8mE1twsBDQjN
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized jb5ZGHLN_VrDOIHxDQjQ
+debug: setting request GET /socket.io/1/websocket/jb5ZGHLN_VrDOIHxDQjQ
+debug: set heartbeat interval for client jb5ZGHLN_VrDOIHxDQjQ
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-14T23:59:56.725Z"},"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:00.631Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:00.631Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client Ui3J0UuVqQE9EKXHDQjO
+debug: cleared close timeout for client Ui3J0UuVqQE9EKXHDQjO
+debug: cleared heartbeat interval for client Ui3J0UuVqQE9EKXHDQjO
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized Nh0x5x1EAy86sbUJDQjR
+debug: setting request GET /socket.io/1/websocket/Nh0x5x1EAy86sbUJDQjR
+debug: set heartbeat interval for client Nh0x5x1EAy86sbUJDQjR
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:00.631Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:01.856Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:01.856Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client Nh0x5x1EAy86sbUJDQjR
+debug: cleared close timeout for client Nh0x5x1EAy86sbUJDQjR
+debug: cleared heartbeat interval for client Nh0x5x1EAy86sbUJDQjR
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized FHbdAVMyPfIlJuRkDQjS
+debug: setting request GET /socket.io/1/websocket/FHbdAVMyPfIlJuRkDQjS
+debug: set heartbeat interval for client FHbdAVMyPfIlJuRkDQjS
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:00.631Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:02.896Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:02.896Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client FHbdAVMyPfIlJuRkDQjS
+debug: cleared close timeout for client FHbdAVMyPfIlJuRkDQjS
+debug: cleared heartbeat interval for client FHbdAVMyPfIlJuRkDQjS
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m3ms[0m
+debug: client authorized
+info: handshake authorized 9RMHzDpidFon5N6IDQjT
+debug: setting request GET /socket.io/1/websocket/9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:00.631Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client jb5ZGHLN_VrDOIHxDQjQ
+debug: cleared close timeout for client jb5ZGHLN_VrDOIHxDQjQ
+debug: cleared heartbeat interval for client jb5ZGHLN_VrDOIHxDQjQ
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized eSd9_Xma8-_eSWcWDQjU
+debug: setting request GET /socket.io/1/websocket/eSd9_Xma8-_eSWcWDQjU
+debug: set heartbeat interval for client eSd9_Xma8-_eSWcWDQjU
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:23.011Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:23.011Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client eSd9_Xma8-_eSWcWDQjU
+debug: cleared close timeout for client eSd9_Xma8-_eSWcWDQjU
+debug: cleared heartbeat interval for client eSd9_Xma8-_eSWcWDQjU
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m2ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized _YAq8iV2Z3fYkFtGDQjV
+debug: setting request GET /socket.io/1/websocket/_YAq8iV2Z3fYkFtGDQjV
+debug: set heartbeat interval for client _YAq8iV2Z3fYkFtGDQjV
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:23.935Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:23.935Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client _YAq8iV2Z3fYkFtGDQjV
+debug: cleared close timeout for client _YAq8iV2Z3fYkFtGDQjV
+debug: cleared heartbeat interval for client _YAq8iV2Z3fYkFtGDQjV
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized uz5uxOGht95tda4tDQjW
+debug: setting request GET /socket.io/1/websocket/uz5uxOGht95tda4tDQjW
+debug: set heartbeat interval for client uz5uxOGht95tda4tDQjW
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:26.518Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:26.518Z"}]}
+after emit
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+info: transport end (socket end)
+debug: set close timeout for client uz5uxOGht95tda4tDQjW
+debug: cleared close timeout for client uz5uxOGht95tda4tDQjW
+debug: cleared heartbeat interval for client uz5uxOGht95tda4tDQjW
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized QvSUbI5wszLVEoTSDQjX
+debug: setting request GET /socket.io/1/websocket/QvSUbI5wszLVEoTSDQjX
+debug: set heartbeat interval for client QvSUbI5wszLVEoTSDQjX
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:50.126Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:50.126Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client QvSUbI5wszLVEoTSDQjX
+debug: cleared close timeout for client QvSUbI5wszLVEoTSDQjX
+debug: cleared heartbeat interval for client QvSUbI5wszLVEoTSDQjX
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized KTRG14QNxkqghzrGDQjY
+debug: setting request GET /socket.io/1/websocket/KTRG14QNxkqghzrGDQjY
+debug: set heartbeat interval for client KTRG14QNxkqghzrGDQjY
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:50.626Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:50.626Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client KTRG14QNxkqghzrGDQjY
+debug: cleared close timeout for client KTRG14QNxkqghzrGDQjY
+debug: cleared heartbeat interval for client KTRG14QNxkqghzrGDQjY
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized atgWZs9j8NIDFMjqDQjZ
+debug: setting request GET /socket.io/1/websocket/atgWZs9j8NIDFMjqDQjZ
+debug: set heartbeat interval for client atgWZs9j8NIDFMjqDQjZ
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:52.535Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:52.535Z"}]}
+after emit
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+info: transport end (socket end)
+debug: set close timeout for client atgWZs9j8NIDFMjqDQjZ
+debug: cleared close timeout for client atgWZs9j8NIDFMjqDQjZ
+debug: cleared heartbeat interval for client atgWZs9j8NIDFMjqDQjZ
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized 4kgVvN6XQkknyAPaDQja
+debug: setting request GET /socket.io/1/websocket/4kgVvN6XQkknyAPaDQja
+debug: set heartbeat interval for client 4kgVvN6XQkknyAPaDQja
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:54.780Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:54.780Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client 4kgVvN6XQkknyAPaDQja
+debug: cleared close timeout for client 4kgVvN6XQkknyAPaDQja
+debug: cleared heartbeat interval for client 4kgVvN6XQkknyAPaDQja
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized L9B4TSxFHVRagVG3DQjb
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m7ms[0m
+[90mGET /javascripts/chatter.js [32m200 [90m4ms - 5.56kb[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized 8JjG-xy7fgwu1MQaDQjc
+debug: setting request GET /socket.io/1/websocket/8JjG-xy7fgwu1MQaDQjc
+debug: set heartbeat interval for client 8JjG-xy7fgwu1MQaDQjc
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:57.348Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:57.348Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client 8JjG-xy7fgwu1MQaDQjc
+debug: cleared close timeout for client 8JjG-xy7fgwu1MQaDQjc
+debug: cleared heartbeat interval for client 8JjG-xy7fgwu1MQaDQjc
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized Ql6cDo_9idjTi3KfDQjd
+debug: setting request GET /socket.io/1/websocket/Ql6cDo_9idjTi3KfDQjd
+debug: set heartbeat interval for client Ql6cDo_9idjTi3KfDQjd
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:57.951Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:57.951Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client Ql6cDo_9idjTi3KfDQjd
+debug: cleared close timeout for client Ql6cDo_9idjTi3KfDQjd
+debug: cleared heartbeat interval for client Ql6cDo_9idjTi3KfDQjd
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized ZQhDtEHZ_QI-WGCcDQje
+debug: setting request GET /socket.io/1/websocket/ZQhDtEHZ_QI-WGCcDQje
+debug: set heartbeat interval for client ZQhDtEHZ_QI-WGCcDQje
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:58.479Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:58.479Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client ZQhDtEHZ_QI-WGCcDQje
+debug: cleared close timeout for client ZQhDtEHZ_QI-WGCcDQje
+debug: cleared heartbeat interval for client ZQhDtEHZ_QI-WGCcDQje
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized 5hKm_WTFLyiZ-GzHDQjf
+debug: setting request GET /socket.io/1/websocket/5hKm_WTFLyiZ-GzHDQjf
+debug: set heartbeat interval for client 5hKm_WTFLyiZ-GzHDQjf
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:58.959Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:00:58.959Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client 5hKm_WTFLyiZ-GzHDQjf
+debug: cleared close timeout for client 5hKm_WTFLyiZ-GzHDQjf
+debug: cleared heartbeat interval for client 5hKm_WTFLyiZ-GzHDQjf
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized v5-9YCraaOTAba9NDQjg
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/chatter.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized 64ABZWGYF-HNs3c_DQjh
+debug: setting request GET /socket.io/1/websocket/64ABZWGYF-HNs3c_DQjh
+debug: set heartbeat interval for client 64ABZWGYF-HNs3c_DQjh
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:00.839Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:00.839Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client 64ABZWGYF-HNs3c_DQjh
+debug: cleared close timeout for client 64ABZWGYF-HNs3c_DQjh
+debug: cleared heartbeat interval for client 64ABZWGYF-HNs3c_DQjh
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized 2Y2uDJ1od6Q16QcMDQji
+debug: setting request GET /socket.io/1/websocket/2Y2uDJ1od6Q16QcMDQji
+debug: set heartbeat interval for client 2Y2uDJ1od6Q16QcMDQji
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:03.322Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:03.322Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client 2Y2uDJ1od6Q16QcMDQji
+debug: cleared close timeout for client 2Y2uDJ1od6Q16QcMDQji
+debug: cleared heartbeat interval for client 2Y2uDJ1od6Q16QcMDQji
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized atT8RnwgAJyXniPgDQjj
+debug: setting request GET /socket.io/1/websocket/atT8RnwgAJyXniPgDQjj
+debug: set heartbeat interval for client atT8RnwgAJyXniPgDQjj
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:07.176Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:07.176Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client atT8RnwgAJyXniPgDQjj
+debug: cleared close timeout for client atT8RnwgAJyXniPgDQjj
+debug: cleared heartbeat interval for client atT8RnwgAJyXniPgDQjj
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized BZ8EdG8wJPw9kxJLDQjk
+debug: setting request GET /socket.io/1/websocket/BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-14T23:59:58.494Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:09.015Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:09.015Z"}]}
+after emit
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: emitting heartbeat for client BZ8EdG8wJPw9kxJLDQjk
+debug: websocket writing 2::
+debug: set heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: emitting heartbeat for client BZ8EdG8wJPw9kxJLDQjk
+debug: websocket writing 2::
+debug: set heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: emitting heartbeat for client BZ8EdG8wJPw9kxJLDQjk
+debug: websocket writing 2::
+debug: set heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: emitting heartbeat for client BZ8EdG8wJPw9kxJLDQjk
+debug: websocket writing 2::
+debug: set heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: emitting heartbeat for client BZ8EdG8wJPw9kxJLDQjk
+debug: websocket writing 2::
+debug: set heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: emitting heartbeat for client VG-Cau3YZpCPI84hDQjP
+debug: websocket writing 2::
+debug: set heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client VG-Cau3YZpCPI84hDQjP
+debug: set heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+info: transport end (socket end)
+debug: set close timeout for client VG-Cau3YZpCPI84hDQjP
+debug: cleared close timeout for client VG-Cau3YZpCPI84hDQjP
+debug: cleared heartbeat interval for client VG-Cau3YZpCPI84hDQjP
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 1"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 1"]}
+Client disconnected...room 1
+debug: discarding transport
+[90mGET /javascripts/chatter.js [32m200 [90m2ms - 5.56kb[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized InWkZwdm4QhL04ttDQjl
+debug: setting request GET /socket.io/1/websocket/InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:00:04.048Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:09.015Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"}]}
+after emit
+debug: emitting heartbeat for client BZ8EdG8wJPw9kxJLDQjk
+debug: websocket writing 2::
+debug: set heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: set heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: emitting heartbeat for client 9RMHzDpidFon5N6IDQjT
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 9RMHzDpidFon5N6IDQjT
+debug: set heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+info: transport end (socket end)
+debug: set close timeout for client 9RMHzDpidFon5N6IDQjT
+debug: cleared close timeout for client 9RMHzDpidFon5N6IDQjT
+debug: cleared heartbeat interval for client 9RMHzDpidFon5N6IDQjT
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [32m200 [90m1ms - 5.56kb[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized syAGn_j3XT92_oPLDQjm
+debug: setting request GET /socket.io/1/websocket/syAGn_j3XT92_oPLDQjm
+debug: set heartbeat interval for client syAGn_j3XT92_oPLDQjm
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:01:09.015Z"},"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:03:53.295Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:03:53.295Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: cleared close timeout for client BZ8EdG8wJPw9kxJLDQjk
+debug: cleared heartbeat interval for client BZ8EdG8wJPw9kxJLDQjk
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 4"]}
+Client disconnected...room 4
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized FW6Jo92oA8Fn19wcDQjn
+debug: setting request GET /socket.io/1/websocket/FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 2":{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:03:53.295Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client syAGn_j3XT92_oPLDQjm
+debug: cleared close timeout for client syAGn_j3XT92_oPLDQjm
+debug: cleared heartbeat interval for client syAGn_j3XT92_oPLDQjm
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized DsToMQ8Tygmz8YL3DQjo
+debug: setting request GET /socket.io/1/websocket/DsToMQ8Tygmz8YL3DQjo
+debug: set heartbeat interval for client DsToMQ8Tygmz8YL3DQjo
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:00.399Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:00.399Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client DsToMQ8Tygmz8YL3DQjo
+debug: cleared close timeout for client DsToMQ8Tygmz8YL3DQjo
+debug: cleared heartbeat interval for client DsToMQ8Tygmz8YL3DQjo
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized LuedEXypeAjA1WDUDQjp
+debug: setting request GET /socket.io/1/websocket/LuedEXypeAjA1WDUDQjp
+debug: set heartbeat interval for client LuedEXypeAjA1WDUDQjp
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:01.436Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:01.436Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client LuedEXypeAjA1WDUDQjp
+debug: cleared close timeout for client LuedEXypeAjA1WDUDQjp
+debug: cleared heartbeat interval for client LuedEXypeAjA1WDUDQjp
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized Jwz2oCvwNIlK7UeDDQjq
+debug: setting request GET /socket.io/1/websocket/Jwz2oCvwNIlK7UeDDQjq
+debug: set heartbeat interval for client Jwz2oCvwNIlK7UeDDQjq
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:02.277Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:02.277Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client Jwz2oCvwNIlK7UeDDQjq
+debug: cleared close timeout for client Jwz2oCvwNIlK7UeDDQjq
+debug: cleared heartbeat interval for client Jwz2oCvwNIlK7UeDDQjq
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized tW2kvYpaDHvhAqW7DQjr
+debug: setting request GET /socket.io/1/websocket/tW2kvYpaDHvhAqW7DQjr
+debug: set heartbeat interval for client tW2kvYpaDHvhAqW7DQjr
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:02.957Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:02.957Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client tW2kvYpaDHvhAqW7DQjr
+debug: cleared close timeout for client tW2kvYpaDHvhAqW7DQjr
+debug: cleared heartbeat interval for client tW2kvYpaDHvhAqW7DQjr
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized lP5Cmy1RJK4CR2M-DQjs
+debug: setting request GET /socket.io/1/websocket/lP5Cmy1RJK4CR2M-DQjs
+debug: set heartbeat interval for client lP5Cmy1RJK4CR2M-DQjs
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:03.501Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:03.501Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client lP5Cmy1RJK4CR2M-DQjs
+debug: cleared close timeout for client lP5Cmy1RJK4CR2M-DQjs
+debug: cleared heartbeat interval for client lP5Cmy1RJK4CR2M-DQjs
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m2ms[0m
+debug: client authorized
+info: handshake authorized OUrc-XgJldg9CRl4DQjt
+debug: setting request GET /socket.io/1/websocket/OUrc-XgJldg9CRl4DQjt
+debug: set heartbeat interval for client OUrc-XgJldg9CRl4DQjt
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:04.237Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:04.237Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client OUrc-XgJldg9CRl4DQjt
+debug: cleared close timeout for client OUrc-XgJldg9CRl4DQjt
+debug: cleared heartbeat interval for client OUrc-XgJldg9CRl4DQjt
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized nIftsaertxFPu-1IDQju
+debug: setting request GET /socket.io/1/websocket/nIftsaertxFPu-1IDQju
+debug: set heartbeat interval for client nIftsaertxFPu-1IDQju
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:04.797Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:04.797Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client nIftsaertxFPu-1IDQju
+debug: cleared close timeout for client nIftsaertxFPu-1IDQju
+debug: cleared heartbeat interval for client nIftsaertxFPu-1IDQju
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: client authorized
+info: handshake authorized 2oIE890UOoEQP9gaDQjv
+debug: setting request GET /socket.io/1/websocket/2oIE890UOoEQP9gaDQjv
+debug: set heartbeat interval for client 2oIE890UOoEQP9gaDQjv
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:05.291Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:05.291Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client 2oIE890UOoEQP9gaDQjv
+debug: cleared close timeout for client 2oIE890UOoEQP9gaDQjv
+debug: cleared heartbeat interval for client 2oIE890UOoEQP9gaDQjv
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m0ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized N0VXOIVaN1DkNOEPDQjw
+debug: setting request GET /socket.io/1/websocket/N0VXOIVaN1DkNOEPDQjw
+debug: set heartbeat interval for client N0VXOIVaN1DkNOEPDQjw
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:05.773Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:05.773Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client N0VXOIVaN1DkNOEPDQjw
+debug: cleared close timeout for client N0VXOIVaN1DkNOEPDQjw
+debug: cleared heartbeat interval for client N0VXOIVaN1DkNOEPDQjw
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized Ts6CsrNRb_UN7XWyDQjx
+debug: setting request GET /socket.io/1/websocket/Ts6CsrNRb_UN7XWyDQjx
+debug: set heartbeat interval for client Ts6CsrNRb_UN7XWyDQjx
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:06.268Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:06.268Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client Ts6CsrNRb_UN7XWyDQjx
+debug: cleared close timeout for client Ts6CsrNRb_UN7XWyDQjx
+debug: cleared heartbeat interval for client Ts6CsrNRb_UN7XWyDQjx
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m0ms[0m
+debug: client authorized
+info: handshake authorized Kn4FmWz3bELV2f-iDQjy
+debug: setting request GET /socket.io/1/websocket/Kn4FmWz3bELV2f-iDQjy
+debug: set heartbeat interval for client Kn4FmWz3bELV2f-iDQjy
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:06.917Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:06.917Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client Kn4FmWz3bELV2f-iDQjy
+debug: cleared close timeout for client Kn4FmWz3bELV2f-iDQjy
+debug: cleared heartbeat interval for client Kn4FmWz3bELV2f-iDQjy
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized WQgBWzSILyAJ6Lf3DQjz
+debug: setting request GET /socket.io/1/websocket/WQgBWzSILyAJ6Lf3DQjz
+debug: set heartbeat interval for client WQgBWzSILyAJ6Lf3DQjz
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:07.468Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:07.468Z"}]}
+after emit
+info: transport end (socket end)
+debug: set close timeout for client WQgBWzSILyAJ6Lf3DQjz
+debug: cleared close timeout for client WQgBWzSILyAJ6Lf3DQjz
+debug: cleared heartbeat interval for client WQgBWzSILyAJ6Lf3DQjz
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+debug: websocket writing 5:::{"name":"userDisconnect","args":["room 2"]}
+Client disconnected...room 2
+debug: discarding transport
+[90mGET /javascripts/chatter.js [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /stylesheets/chatter.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized 3a88GyeK0ck42PQ0DQj0
+debug: setting request GET /socket.io/1/websocket/3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0
+debug: client authorized for 
+debug: websocket writing 1::
+Client connected ...
+debug: websocket writing 5:::{"name":"usersLoggedIn","args":[{"room 1":{"username":"room 1","url":"localhost","loginTime":"2013-11-15T00:03:37.131Z"},"room 4":{"username":"room 4","url":"localhost","loginTime":"2013-11-15T00:03:57.146Z"}}]}
+before emit
+debug: broadcasting packet
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:08.031Z"}]}
+debug: websocket writing 5:::{"name":"newUser","args":[{"username":"room 2","url":"localhost","loginTime":"2013-11-15T00:04:08.031Z"}]}
+after emit
+debug: emitting heartbeat for client FW6Jo92oA8Fn19wcDQjn
+debug: websocket writing 2::
+debug: set heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: emitting heartbeat for client 3a88GyeK0ck42PQ0DQj0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0
+debug: emitting heartbeat for client FW6Jo92oA8Fn19wcDQjn
+debug: websocket writing 2::
+debug: set heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: emitting heartbeat for client 3a88GyeK0ck42PQ0DQj0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0
+debug: emitting heartbeat for client FW6Jo92oA8Fn19wcDQjn
+debug: websocket writing 2::
+debug: set heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: emitting heartbeat for client 3a88GyeK0ck42PQ0DQj0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0
+debug: emitting heartbeat for client FW6Jo92oA8Fn19wcDQjn
+debug: websocket writing 2::
+debug: set heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: emitting heartbeat for client 3a88GyeK0ck42PQ0DQj0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0
+debug: emitting heartbeat for client FW6Jo92oA8Fn19wcDQjn
+debug: websocket writing 2::
+debug: set heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: emitting heartbeat for client 3a88GyeK0ck42PQ0DQj0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0
+debug: emitting heartbeat for client FW6Jo92oA8Fn19wcDQjn
+debug: websocket writing 2::
+debug: set heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client FW6Jo92oA8Fn19wcDQjn
+debug: set heartbeat interval for client FW6Jo92oA8Fn19wcDQjn
+debug: emitting heartbeat for client InWkZwdm4QhL04ttDQjl
+debug: websocket writing 2::
+debug: set heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client InWkZwdm4QhL04ttDQjl
+debug: set heartbeat interval for client InWkZwdm4QhL04ttDQjl
+debug: emitting heartbeat for client 3a88GyeK0ck42PQ0DQj0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 3a88GyeK0ck42PQ0DQj0
+debug: set heartbeat interval for client 3a88GyeK0ck42PQ0DQj0

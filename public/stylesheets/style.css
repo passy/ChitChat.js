@@ -1,0 +1,35 @@
+body {
+/*  padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin:0 auto;
+}
+
+#container {
+  max-width: 1000;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h3 {
+  margin-top: 80px;
+  color: red;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  background-color: green;
+  width: 100%;
+}
+
+#large-background {
+  height: 1000px;
+  background-color: blue;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+

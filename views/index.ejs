@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <!-- Latest compiled and minified CSS Bootstrap -->
+    <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'>
+  </head>
+  <body>
+    <div id= "header">
+      <h1><%= title %></h1>
+
+    </div>
+    <div id="contianer">
+      <h3>Welcome to <%= title %></h3>
+      <div id="large-background">
+        <form style="margin-top:80px">
+          <!-- Name: <input type="text" name="firstname"><br> -->
+          <button id="login-btn" class="btn btn-large">Click To Sign In</button>
+        </form>
+
+      </div>
+    </div>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script data-main="javascripts/chatter" src="./javascripts/require.js"></script>
+    <script>
+      $("#login-btn").on("click", function(e) {
+        e.preventDefault();
+        $(chatterApp).trigger('userLogin');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+/* //////////////////////////////*/
+#chatter-container {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 10;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+}
+
+#chatter-friendlist-widget {
+  background-color: #E8E8E8;
+  max-height: 470px;
+  min-height: 20px;
+  width: 200px;
+  border: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 0 auto;
+/*  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;*/
+}
+
+#chatter-friendlist {
+  background-color: white;
+  max-height: 400px;
+  min-height: 10px;
+  width: 190px;
+  text-align: left;
+  margin: 5px;
+  /*border-radius: 5px;*/
+  overflow-y: auto;
+  word-break: break-all;
+}
+
+#chatter-friendlist .chatter-username {
+  border: 3px;
+  margin: 3px;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+#chatter-friendlist-header {
+  color: black;
+  height: 20px;
+  /*margin-top:1px;*/
+}
+
+#chatter-friendlist-header .chatter-slide-glyph {
+  /*background: url("/images/minus.png") no repeat;*/
+  /*color: #00B7FF;*/
+  display: inline-block;
+  float: left;
+  /*margin: 7px 0px 5px 0px;*/
+  border-color: transparent;
+  /*padding: 3px 3px 0px 0px;*/
+  width: 13px;
+  /*height: 10px;*/
+  text-align: center;
+}
+
+.glyph-btn {
+  display: inline-block;
+  background-color: transparent;
+  float: left;
+  margin: 4px 2px 0px 2px;
+  border: none;
+  padding: 0px 0px 0px 4px;
+  /*color: #00B7FF;*/
+}
+
+.glyph-btn:active, .glyph-btn:focus {
+  outline: 0;
+  /*background-color: yellow;*/
+}
+.glyph-btn:hover{
+  cursor: pointer;
+}
+
+/*#chatter-friendlist-header .glyphicon {
+  color: #00B7FF;
+}*/
+
+#chatter-friendlist-title {
+  margin: 0px auto;
+  padding-top: 5px;
+}
+
+.chatter-chat-widget {
+  background-color: #E8E8E8;
+  max-height: 320px;
+  min-height: 10px;
+  width: 210px;
+  border: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  /*float: left;*/
+  margin: 0px auto;
+/*  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;*/
+}
+
+.chatter-chat-box {
+  background-color: white;
+  max-height: 230px;
+  min-height: 100px;
+  width: 196px;
+  text-align: left;
+  margin: 5px;
+  padding: 2px;
+  /*border-radius: 5px;*/
+  overflow-y: scroll;
+  word-break: break-all;
+  /*word-wrap: normal;*/
+}
+
+.chatter-chat-box .chatter-received {
+  text-align: left;
+  color: #FF3B30;
+  border: 3px;
+  margin: 3px;
+}
+
+.chatter-chat-box .chatter-sent {
+  text-align: right;
+  color: #007AFF;
+  border: 3px;
+  margin: 3px;
+}
+
+.chatter-chat-box-header {
+  color: black;
+  display: inline;
+  margin: 0px auto;
+  width: 205px;
+  height: 20px;
+}
+
+.chatter-chat-input {
+  width: 192px;
+  margin: 0px 5px 4px 5px;
+  border: 0px;
+  padding: 4px;
+  display: block;
+  color: #555;
+  vertical-align: middle;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 4px;*/
+  /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);*/
+  /*box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);*/
+  /*-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;*/
+  /*transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;*/
+}
+
+.chatter-chat-box-header .chatter-chat-title {
+  /*padding: 2.2px 0px 0px 0px;*/
+  margin: 0px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
+  display: inline-block;
+}
+
+.chatter-chat-box-header .chatter-slide-glyph {
+  /*background: url("/images/minus.png") no repeat;*/
+  /*color: #00B7FF;*/
+  display: inline-block;
+  float: left;
+  margin: 4px 0px 3px 0px;
+  border-color: transparent;
+  /*padding: 1px 3px 0px 0px;*/
+  width: 13px;
+  text-align: center;
+}
+
+.chatter-remove-glyph {
+  /*background: url("/images/minus.png") no repeat;*/
+  /*color: #00B7FF;*/
+  display: inline-block;
+  /*float: left;*/
+  /*margin: 0px 0px 0px 5px;*/
+  border-color: transparent;
+  /*padding: 1px 3px 0px 0px;*/
+  width: 12px;
+  text-align: center;
+}
+
+.glyph-btn-remove {
+  display: inline-block;
+  background-color: transparent;
+  float: right;
+  margin: 8px 2px 0px 0px;
+  border: none;
+  /*color: #00B7FF;*/
+}
+
+.glyph-btn-remove:active, .glyph-btn-remove:focus {
+  outline: 0;
+  /*background-color: yellow;*/
+}
+.glyph-btn-remove:hover{
+  cursor: pointer;
+}
+
+.chatter-chatbox-header .chatter-slide-glyph {
+  /*background: url("/images/minus.png") no repeat;*/
+  /*color: #00B7FF;*/
+  display: inline-block;
+  float: left;
+  margin: 0px 0px 0px 5px;
+  border-color: transparent;
+  padding: 1px 3px 0px 0px;
+  width: 13px;
+  text-align: center;
+}
+
+.clearfix {
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+
+/*.chatter-chat-box-header .close {
+  color: #00B7FF;
+  opacity: 1;
+  text-shadow: none;
+  margin: 0px 10px 0px 0px;
+  float: right;
+}*/
+
+
+
+/*.chatter-chat-box-header .glyphicon {
+  color: #00B7FF;
+}*/
