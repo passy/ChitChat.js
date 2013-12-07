@@ -26,7 +26,7 @@ and within an hour your users will be able to chat from your site.
 6. Install ChitChat.js in your web app
   1. in your global HTML file add two script files, include two scrpt tags:
   <pre><code>&lt;script src="https://code.jquery.com/jquery.js" &gt;&lt;/script&gt;
-  &lt;script data-main="http://localhost/javascripts/chatter"src="http://localhost/javascripts/require.js"&gt;&lt;/script&gt;</code></pre>
+  &lt;script data-main="http://localhost/javascripts/chitchat"src="http://localhost/javascripts/require.js"&gt;&lt;/script&gt;</code></pre>
     * note: replace "localhost" with the node_server_url
     * note2: ChitChat.js is dependant on jQuery. JQuery must be loaded before loading ChitChat.js
   2. add code to notify ChitChat.js when a user logs into your site. Use ChitChat function:
@@ -42,7 +42,7 @@ and within an hour your users will be able to chat from your site.
 &lt;/script&gt;</code></pre>
 
 7. Customize the ChitChat.js CSS
-  * customizations can be done to the public/stylesheets/chatter.css file
+  * customizations can be done to the public/stylesheets/chitchat.css file
   
 8. And thats it! Test it out with a few users. Please feel free to reach out if any part of this walkthrough is not clear
 
@@ -54,3 +54,4 @@ Please feel free to contribute to this project. I am new to the world of open so
 * this app is a work in progress
 * functionality to regognize a user logout has not been built
 * a sass style sheet is needed for easier customization
+* I was originally going to call this project chatter.js but switched to chitchat.js. Many variables still use chatter instead of chitchat. I appoligize if this causes any confusion. Eventually I will switch everything to chitchat
