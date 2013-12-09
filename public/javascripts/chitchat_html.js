@@ -199,7 +199,7 @@ define(["chitchat_settings", "jquery"], function(chatterSettings, $) {
         var room = chatterApp.userRoomList[room_id]; // find room
         var left = $(room_widget).position().left;
         self.removeChatWindow(room, left);
-        socket.emit('leaveRoom', {'user_id': $.cookie(chatteraApp.chatter_js_cookie), 'room_id': room_id} );
+        socket.emit('leaveRoom', {'user_id': $.cookie(chatterApp.chatter_js_cookie), 'room_id': room_id} );
       });
 
       chatterAppContainer.on('click', ".glyph-btn-remove", function(e) {
